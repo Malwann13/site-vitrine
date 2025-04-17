@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nom de l'Association</title>
+  <style>
+    :root {
+      --primary-color: #1e90ff;
+      --secondary-color: #f4f4f4;
+      --text-color: #333;
+      --footer-bg: #222;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: var(--text-color);
+      background-color: #fff;
+    }
+
+    header {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: var(--secondary-color);
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 20px;
+      text-decoration: none;
+      color: var(--text-color);
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--primary-color);
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: var(--primary-color);
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style: square;
+      padding-left: 20px;
+    }
+
+    footer {
+      background-color: var(--footer-bg);
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Nom de l'Association</h1>
+    <p>Notre mission, nos valeurs</p>
+  </header>
+
+  <nav>
+    <a href="#about">À propos</a>
+    <a href="#services">Nos actions</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>À propos de nous</h2>
+    <p>Nous sommes une association engagée dans <strong>[cause ou domaine]</strong>. Depuis <strong>[année]</strong>, nous œuvrons pour <strong>[objectif principal]</strong>. Nos actions visent à créer un impact positif et durable.</p>
+  </section>
+
+  <section id="services">
+    <h2>Nos actions</h2>
+    <ul>
+      <li>Ateliers et événements solidaires</li>
+      <li>Soutien personnalisé aux personnes en difficulté</li>
+      <li>Projets participatifs pour la communauté</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><strong>Email :</strong> <a href="mailto:contact@nomasso.fr">contact@nomasso.fr</a></p>
+    <p><strong>Téléphone :</strong> 01 23 45 67 89</p>
+    <p><strong>Adresse :</strong> 123 rue de l'Engagement, 75000 Paris</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Nom de l'Association — Tous droits
